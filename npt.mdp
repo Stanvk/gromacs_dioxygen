@@ -44,6 +44,6 @@ ld-seed                   = -1
 ; Options for barostat
 pcoupl                    = parrinello-rahman   ; pressure coupling method
 pcoupltype                = isotropic  ; type of pressure coupling
-tau-p                     = 10        ; time constant (ps)
+tau-p                     = 1        ; HIGHER CONSTANTS SEEM TO WORK! time constant (ps)
 ref-p                     = 1.0    ; reference  pressure (bar)
 compressibility           = 1    ; compressibility (1/bar)
